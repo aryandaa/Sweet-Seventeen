@@ -14,14 +14,14 @@ function mulai(){
   } 
 
 function wa(isi) { 
-window.open("https://api.whatsapp.com/send?text= Makasih ya udah inget ulang tahun aku, di hari spesial ini aku pengin " + isi); 
+window.open("https://api.whatsapp.com/send?text= Makasih ya, di hari spesial ini harapan aku yaitu " + isi); 
 } 
 
 async function tanya() { 
     var { 
       value: kado 
     } = await swal.fire({ 
-        title: "Di hari spesial ini amaa pengen apa?", input: "text", showCancelButton: false, 
+        title: "Di hari spesial ini apa harapan amaa?", input: "text", showCancelButton: false, 
       }); 
 
   if (kado) {
